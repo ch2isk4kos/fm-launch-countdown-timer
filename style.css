@@ -8,11 +8,19 @@
 body {
   font-family: "Red Hat Text", sans-serif;
   /* background-color: hsl(236, 70%, 17%); */
-  background-color: hsl(236, 69%, 14%);
+  /* background-color: hsl(236, 69%, 14%); */
+  background-color: hsl(235, 16%, 14%);
 }
 
 img {
-  max-width: 100%;
+  max-width: 100%; /* defines max-width of an element */
+}
+.bg-stars {
+  position: absolute; /* the element is positioned relative to its first positioned ancestor*/
+}
+.pattern-hills {
+  position: absolute;
+  bottom: 0;
 }
 
 .attribution {
