@@ -12,6 +12,7 @@ body {
   background-color: hsl(235, 16%, 14%);
 }
 
+/* Images */
 img {
   max-width: 100%; /* defines max-width of an element */
 }
@@ -23,12 +24,21 @@ img {
   bottom: 0; /* effects the vertical position of of a positioned element*/
 }
 
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Social */
 ul {
   list-style-type: none;
 }
 .social {
   position: absolute;
-  bottom: 25%;
+  bottom: 5%;
   left: 50%; /* effects the horizontal position of of a positioned element*/
   transform: translateX(-50%); /* moves elements to the left of the x-axis */
   z-index: 100;
