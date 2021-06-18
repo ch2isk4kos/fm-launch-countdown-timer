@@ -77,7 +77,7 @@ ul {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1440px) {
   .bg-stars img,
   .pattern-hills img {
     width: 3200px;
