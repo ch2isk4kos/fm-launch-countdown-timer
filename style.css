@@ -7,6 +7,7 @@
 
 body {
   font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
   /* background-color: hsl(236, 70%, 17%); */
   /* background-color: hsl(236, 69%, 14%); */
   background-color: hsl(235, 16%, 14%);
@@ -45,6 +46,7 @@ img {
 }
 .countdown p {
   padding: 20px;
+  font-size: 36px;
   background-color: hsl(236, 21%, 26%);
   color: hsl(345, 95%, 68%);
   border-radius: 5px;
