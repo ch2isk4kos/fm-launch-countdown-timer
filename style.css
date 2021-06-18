@@ -20,7 +20,7 @@ img {
 }
 .pattern-hills {
   position: absolute;
-  bottom: 0;
+  bottom: 0; /* effects the vertical position of of a positioned element*/
 }
 
 .attribution {
@@ -29,4 +29,11 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1600px) {
+  .bg-stars img,
+  .pattern-hills img {
+    width: 3200px;
+  }
 }
