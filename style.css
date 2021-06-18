@@ -30,6 +30,24 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 50vh;
+}
+
+/* Countdown */
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.countdown div {
+  margin: 10px;
+}
+.countdown p {
+  padding: 20px;
+  background-color: hsl(236, 21%, 26%);
+  color: hsl(345, 95%, 68%);
+  border-radius: 5px;
 }
 
 /* Social */
